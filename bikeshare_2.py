@@ -1,3 +1,7 @@
+"""
+@author: Adel Abu Hashim
+"""
+
 import time
 import pandas as pd
 import numpy as np
@@ -17,7 +21,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington). 
     city = input('ENTER THE CITY: ')
     while city not in ['chicago', 'new york city', 'washington']:
         city = input ("CHOOSE BETWEEN chicago, new york city OR washington: ").lower()
@@ -161,7 +165,8 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data (df):
-    """Displays the data due filteration."""
+    """Displays the data due filteration.
+    5 rows will added in each press"""
     print('press enter to see row data, press no to skip')
     x = 0
     while (input()!= 'no'):
