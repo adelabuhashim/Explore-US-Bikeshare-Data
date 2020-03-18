@@ -1,6 +1,10 @@
-"""
-@author: Adel Abu Hashim
-"""
+'''
+    File name: test.py
+    Author: Adel Abu Hashim
+    Date created: 3/10/2020
+    Date last modified: 3/18/2020
+    Python Version: 3.6
+'''
 
 import time
 import pandas as pd
