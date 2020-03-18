@@ -14,7 +14,7 @@ This project explores Bike share data from 3 differents cities; it uses data fro
 - Python
 - Pandas
 - Numpy
-- Pycharm(IDE)
+- Pycharm (IDE)
 
 ## Files used
 - chicago.csv
